@@ -1,0 +1,42 @@
+2021-06-16 17:05:56.147  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.s.DocumentServiceApplication       : The following profiles are active: api-bestpractice
+2021-06-16 17:05:57.321  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-16 17:05:57.324  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-16 17:05:57.351  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-06-16 17:05:58.204  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.a.b.w.WarmupAutoConfiguration    : Warming up netty started.
+2021-06-16 17:05:58.332  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.a.b.w.WarmupAutoConfiguration    : Warming up netty finished.
+2021-06-16 17:05:58.654  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 93e2c301-dc06-4262-9c4c-999dbb3882c8
+
+2021-06-16 17:06:00.527  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.a.b.d.DeprecatedApiWebFilter     : Creating DeprecatedApiWebFilter
+2021-06-16 17:06:01.478  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : ********************************
+2021-06-16 17:06:01.479  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : * Common System Config:
+2021-06-16 17:06:01.479  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : *
+2021-06-16 17:06:01.479  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : * uk.co.ii.env.name=localdev
+2021-06-16 17:06:01.480  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : * uk.co.ii.env.subdomain=localdev
+2021-06-16 17:06:01.481  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : * aws.paramstore.enabled=false
+2021-06-16 17:06:01.481  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : * management.metrics.export.cloudwatch.enabled=null
+2021-06-16 17:06:01.481  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : *
+2021-06-16 17:06:01.481  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] gingAutoConfiguration$LogOutSystemConfig : ********************************
+2021-06-16 17:06:01.488  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .OneStackTraceWebClientAutoConfiguration : SleuthWebClientThirdPartyTraceFilterFactory created
+2021-06-16 17:06:01.492  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.a.s.l.LoggingAutoConfiguration   : LoggingAutoConfiguration
+2021-06-16 17:06:01.704  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.h.a.r.r.CustomerPermissionsRepository : customerPermissionsUrl: http://localhost:8600/account-service/api/1/customers/{customerId}/permissions
+2021-06-16 17:06:01.705  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.h.a.r.r.CustomerPermissionsRepository : crmUserPermissionsUrl: http://localhost:8600/account-service/api/1/crm-users/{crmUserId}/customers/{customerId}/permissions
+2021-06-16 17:06:01.705  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .s.h.a.r.r.CustomerPermissionsRepository : permissions timeout: null
+2021-06-16 17:06:01.714  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] s.r.EnrolledPermissionsAutoConfiguration : Creating authorizationDecisionHelper
+2021-06-16 17:06:01.726  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] w.JhcApiWebClientConfigurerConfiguration : JhcApiWebClientConfigurerConfiguration
+2021-06-16 17:06:01.775  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] .WebClientThirdPartyTraceHashMapRegistry : Registering http://jhc-api.ii.co.uk/201 -> jhc-api. (originalUrl=http://jhc-api.ii.co.uk/201)
+2021-06-16 17:06:01.776  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.j.repository.CcmJhcCrudGateway   : JHC API base url: http://jhc-api.ii.co.uk/201
+2021-06-16 17:06:01.778  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] c.i.c.a.b.h.w.WebClientConnectionBuilder : Connection timeout = 5000 ms, Read/Write timeout = 30000 ms
+2021-06-16 17:06:01.778  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] c.i.c.a.b.h.w.WebClientConnectionBuilder : Warming up netty HttpClient started.
+2021-06-16 17:06:01.785  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] c.i.c.a.b.h.w.WebClientConnectionBuilder : Warming up netty HttpClient finished.
+2021-06-16 17:06:01.789  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.j.CcmRepositoryAutoConfiguration : Post CCM Action url: /ccmaction?template-id={templateId}&commit-action={commit}&username=RESTAPI
+2021-06-16 17:06:01.789  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.j.CcmRepositoryAutoConfiguration : Get CCM Action url: /ccmaction/{actionId}?include=ccm-data-items
+2021-06-16 17:06:01.789  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.j.CcmRepositoryAutoConfiguration : Put CCM Action url: /ccmaction/{actionId}?username={username}&commit-action=true
+2021-06-16 17:06:01.789  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.c.j.CcmRepositoryAutoConfiguration : Delete CCM Action url: /ccmaction/{action-id}
+2021-06-16 17:06:01.808  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] c.i.d.c.DateTimeFactoryAutoConfiguration : DateTimeFactoryAutoConfiguration started
+2021-06-16 17:06:01.810  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] i.s.j.s.c.JhcInstrumentAutoConfiguration : Started JhcInstrumentAutoConfiguration
+2021-06-16 17:06:01.949  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8620
+2021-06-16 17:06:02.007  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 28 endpoint(s) beneath base path '/actuator'
+2021-06-16 17:06:02.241  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9620
+2021-06-16 17:06:02.263  INFO [aid=document-service,tid=,sid=,cty=,crmUserId=] 76226 --- [main] u.c.i.s.DocumentServiceApplication       : Started DocumentServiceApplication in 7.468 seconds (JVM running for 8.519)
