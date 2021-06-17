@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.41">
-<file name="/Users/rajenj1/Documents/workspace/MicroServices/new-project/src/main/java/uk/co/ii/service/document/controller/viewmodel/DocumentViewModel.java">
-</file>
-<file name="/Users/rajenj1/Documents/workspace/MicroServices/new-project/src/main/java/uk/co/ii/service/document/controller/DocumentController.java">
-</file>
-<file name="/Users/rajenj1/Documents/workspace/MicroServices/new-project/src/main/java/uk/co/ii/service/DocumentServiceApplication.java">
-</file>
-</checkstyle>

@@ -8,7 +8,7 @@ public class DocumentViewModel {
 
   BigDecimal quantityFrom;
   BigDecimal quantityTo;
-  Integer pageSize;
+  Integer pageNumber;
 
 }
 
