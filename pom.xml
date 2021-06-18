@@ -15,8 +15,7 @@
     <description>Demo project showing the Swagger Problem</description>
     <properties>
         <java.version>11</java.version>
-        <swagger-annotations.version>2.1.2</swagger-annotations.version>
-        <springdoc-openapi-webflux-ui.version>1.5.5</springdoc-openapi-webflux-ui.version>
+        <springdoc-openapi-webflux-ui.version>1.3.6</springdoc-openapi-webflux-ui.version>
     </properties>
     <dependencies>
         <dependency>
@@ -31,7 +30,7 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-webflux-ui</artifactId>
-             <version>${springdoc-openapi-webflux-ui.version}</version>
+            <version>${springdoc-openapi-webflux-ui.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -64,5 +63,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
